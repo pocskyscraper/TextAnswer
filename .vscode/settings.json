@@ -1,0 +1,3 @@
+{
+    "terminal.integrated.shellArgs.windows": ["-NoExit","chcp 65001"]
+}
