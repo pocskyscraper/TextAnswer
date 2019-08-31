@@ -7,11 +7,17 @@
             "label": "sample",
             "type": "shell",
             "command": "g++",
-            "args": ["-g", "やさしいC\\2-2.c"],
+            "args": [
+                "-g",
+                "やさしいC\\2-2.c"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
