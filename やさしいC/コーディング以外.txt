@@ -17,4 +17,3 @@ int main(void){printf("こんにちは\n");
 printf("さようなら\n"); return 0;}
 
 誤りはないが、非常に読みにくい。
-
