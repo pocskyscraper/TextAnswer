@@ -8,9 +8,9 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("あなたは何歳ですか？\n");
-    
+
     int age = 0;
     scanf("%d", &age);
 

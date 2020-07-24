@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("正方形の辺の長さを入力して下さい。\n");
 
     int edge = 0;

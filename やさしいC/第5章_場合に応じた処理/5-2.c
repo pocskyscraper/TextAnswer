@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("2つの整数を入力してください。\n");
 
     int x = 0;
@@ -23,11 +23,10 @@ int main(){
     int y = 0;
     scanf("%d", &y);
 
-    if (x == y){
+    if (x == y) {
         printf("2つの数は同じ値です。\n");
-    }
-    else{
-        if (x > y){
+    } else {
+        if (x > y) {
             int tmp = y;
             y = x;
             x = tmp;

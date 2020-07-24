@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("整数を入力してください。\n");
 
     int value = 0;

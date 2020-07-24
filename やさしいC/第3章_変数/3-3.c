@@ -8,9 +8,9 @@ a(ユーザ入力)
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("アルファベットの最初の文字はなんですか？\n");
-    
+
     char letter = getchar();
 
     printf("アルファベットの最初の文字は%cです。", letter);

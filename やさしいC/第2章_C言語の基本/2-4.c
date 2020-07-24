@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("1\t2\t3");
 
     return 0;

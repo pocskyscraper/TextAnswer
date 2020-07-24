@@ -8,9 +8,9 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("円周率の値はいくつですか？\n");
-    
+
     double pi = 0.0;
     scanf("%lf", &pi);
 

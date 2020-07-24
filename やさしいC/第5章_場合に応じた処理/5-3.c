@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("0から10までの整数を入力してください。\n");
 
     int value = 0;

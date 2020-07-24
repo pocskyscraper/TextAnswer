@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("%d\n", 123);
     printf("\\100もらった\n");
     printf("またあした");

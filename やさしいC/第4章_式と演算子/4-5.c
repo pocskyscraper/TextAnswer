@@ -19,20 +19,21 @@
 
 #define SUBJECT_COUNT 5
 
-int main(){
-    int scores[SUBJECT_COUNT] = {0};    
-    for(int i = 0; i < SUBJECT_COUNT; ++i){
+int main() {
+    int scores[SUBJECT_COUNT] = {0};
+    for (int i = 0; i < SUBJECT_COUNT; ++i) {
         printf("科目%dの点数を入力してください。\n", i + 1);
         scanf("%d", &scores[i]);
     }
 
     int sum = 0;
-    for(int i = 0; i < SUBJECT_COUNT; ++i){
+    for (int i = 0; i < SUBJECT_COUNT; ++i) {
         sum += scores[i];
     }
 
     printf("%d科目の合計点は%d点です。\n", SUBJECT_COUNT, sum);
-    printf("%d科目の平均点は%lf点です。", SUBJECT_COUNT, (double)sum / (double)SUBJECT_COUNT);
+    printf("%d科目の平均点は%lf点です。", SUBJECT_COUNT,
+           (double)sum / (double)SUBJECT_COUNT);
 
     return 0;
 }

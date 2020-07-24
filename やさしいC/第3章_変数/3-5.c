@@ -9,9 +9,9 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("身長と体重を入力してください。\n");
-    
+
     double height = 0.0;
     scanf("%lf", &height);
 
@@ -19,6 +19,6 @@ int main(){
     scanf("%lf", &weight);
 
     printf("身長は%fセンチ：体重は%fキロです。\n", height, weight);
-    
+
     return 0;
 }

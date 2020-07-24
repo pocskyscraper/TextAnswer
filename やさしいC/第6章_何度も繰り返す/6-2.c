@@ -14,15 +14,15 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("テストの点数を入力してください。\n");
 
     int score = 0;
     int total = 0;
-    do{
+    do {
         scanf("%d", &score);
         total += score;
-    }while(score != 0);
+    } while (score != 0);
 
     printf("テストの合計点は%d点です。\n", total);
 

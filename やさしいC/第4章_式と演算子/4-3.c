@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &height);
 
     printf("三角形の底辺を入力してください。\n");
-    
+
     int base = 0;
     scanf("%d", &base);
 

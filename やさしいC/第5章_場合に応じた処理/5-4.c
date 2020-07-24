@@ -11,13 +11,14 @@ C(ユーザ入力)
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("A～Cまでの文字を入力してください。\n");
 
     char c = ' ';
     scanf("%c", &c);
 
-    printf("%sです。", ((int)c >= (int)'A' && (int)c <= (int)'C') ? "正解" : "間違い");
+    printf("%sです。",
+           ((int)c >= (int)'A' && (int)c <= (int)'C') ? "正解" : "間違い");
 
     return 0;
 }

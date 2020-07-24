@@ -11,14 +11,14 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     printf("身長を入力してください。\n");
-    
+
     double height = 0.0;
     scanf("%lf", &height);
 
     printf("体重を入力してください。\n");
-    
+
     double weight = 0.0;
     scanf("%lf", &weight);
 

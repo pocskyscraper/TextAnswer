@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     //文字と数値を出力する
     printf("%cは文字です。\n", 'A');
     printf("%dは整数です。\n", 123);
