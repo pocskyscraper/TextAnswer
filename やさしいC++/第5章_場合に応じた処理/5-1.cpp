@@ -10,15 +10,17 @@
 1は奇数です。
 */
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
 
 int main() {
-    printf("整数を入力してください。\n");
+    std::cout << "整数を入力してください。" << std::endl;
 
-    int value = 0;
-    scanf("%d", &value);
+    int value;
+    std::cin >> value;
 
-    printf("%dは%sです。", value, (value % 2 == 0) ? "偶数" : "奇数");
+    std::string str = (value % 2 == 0) ? "偶数" : "奇数";
+    std::cout << value << "は" << str << "です。" << std::endl;
 
     return 0;
 }

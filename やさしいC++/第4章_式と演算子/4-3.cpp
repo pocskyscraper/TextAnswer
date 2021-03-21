@@ -16,12 +16,13 @@
 5科目の平均点は62.8点です。
 */
 
+#include <array>
 #include <iostream>
 
 int main() {
-    int scores[5];
+    std::array<int, 5> scores;
     int sum = 0;
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < scores.size(); ++i) {
         std::cout << "科目" << i + 1 << "の点数を入力してください。"
                   << std::endl;
         std::cin >> scores[i];
