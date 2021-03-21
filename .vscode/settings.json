@@ -41,6 +41,8 @@
         "xtr1common": "cpp",
         "cctype": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "array": "cpp",
+        "iterator": "cpp"
     }
 }
