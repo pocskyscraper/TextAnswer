@@ -13,8 +13,8 @@ double square(double x)を追加してください。
 
 #include <iostream>
 
-int square(int x);
-double square(double x);
+int square(const int x);
+double square(const double x);
 
 int main() {
     std::cout << "整数を入力してください。" << std::endl;
@@ -32,6 +32,6 @@ int main() {
     return 0;
 }
 
-int square(int x) { return x * x; }
+int square(const int x) { return x * x; }
 
-double square(double x) { return x * x; }
+double square(const double x) { return x * x; }
