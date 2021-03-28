@@ -43,6 +43,11 @@
         "string": "cpp",
         "vector": "cpp",
         "array": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "ctime": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp"
     }
 }
