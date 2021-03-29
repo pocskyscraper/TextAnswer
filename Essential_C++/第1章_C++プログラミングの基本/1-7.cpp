@@ -21,23 +21,23 @@ int main() {
     //語の抽出
     std::vector<std::string> words;
     words.reserve(100);
+    std::string word;
     while (!fin.eof()) {
-        std::string word;
         fin >> word;
         words.emplace_back(word);
     }
     fin.close();
 
     // coutへの出力
-    for (int i = 0; i < words.size(); ++i) {
-        std::cout << words[i] << std::endl;
+    for (const auto& word : words) {
+        std::cout << word << std::endl;
     }
 
     //並び替えてファイル出力
     std::sort(words.begin(), words.end());
     std::ofstream fout("essential_C++_1_7_out.txt");
-    for (int i = 0; i < words.size(); ++i) {
-        fout << words[i];
+    for (const auto& word : words) {
+        fout << word;
     }
     fout.close();
 

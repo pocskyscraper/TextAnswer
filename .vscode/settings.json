@@ -48,6 +48,12 @@
         "fstream": "cpp",
         "iomanip": "cpp",
         "xlocmon": "cpp",
-        "xloctime": "cpp"
+        "xloctime": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "clocale": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "numeric": "cpp"
     }
 }
